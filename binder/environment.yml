@@ -1,4 +1,17 @@
+name: base
+Channels:
+  - conda-forge
+  - bioconda
+  - defaults
 dependencies:
-  - matplotlib
-  - numpy
-  - pandas
+  - pip
+  - pip:
+    - plotly
+    - pandas
+    - matplotlib
+    - scikit-learn
+    - numpy
+    - statsmodels
+    - seaborn
+    - scipy
+    - sklearn
